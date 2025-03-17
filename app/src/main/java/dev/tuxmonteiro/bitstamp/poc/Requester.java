@@ -85,7 +85,6 @@ public class Requester {
         mac.init(authentication.secretKeySpec());
         byte[] rawHmacServerCheck = mac.doFinal(stringToSign.getBytes());
         String newSignature = new String(Hex.encodeHex(rawHmacServerCheck));
-        System.out.println("SIGN: " + newSignature);
         
         return newSignature.equals(serverSignature);
     }
