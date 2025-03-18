@@ -2,8 +2,6 @@ package dev.tuxmonteiro.bitstamp.poc;
 
 import java.util.Objects;
 
-import com.google.gson.Gson;
-
 public class Main {
 
     private static final int TIMEOUT = 100000;
