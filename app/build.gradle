@@ -37,6 +37,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
     implementation 'com.google.code.gson:gson:2.12.1'
 
+    // https://mvnrepository.com/artifact/org.glassfish.tyrus.bundles/tyrus-standalone-client
+    implementation 'org.glassfish.tyrus.bundles:tyrus-standalone-client:2.2.0'
+
     // https://mvnrepository.com/artifact/org.mockito/mockito-core
     testImplementation 'org.mockito:mockito-core:5.16.1'
 
